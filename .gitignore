@@ -1,0 +1,18 @@
+# Virtual environments (never ship: they contain compiled executables)
+.venv*/
+venv/
+env/
+
+# Python bytecode and tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Generated run output (cache, chart.png, report.pdf, latest.json)
+wpv-output/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

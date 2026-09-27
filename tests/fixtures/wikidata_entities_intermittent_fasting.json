@@ -1,0 +1,26 @@
+{
+  "entities": {
+    "Q1666254": {
+      "id": "Q1666254",
+      "labels": {"en": {"language": "en", "value": "intermittent fasting"}},
+      "descriptions": {"en": {"language": "en", "value": "a diet that cycles between a period of fasting and non-fasting"}},
+      "sitelinks": {
+        "enwiki": {"site": "enwiki", "title": "Intermittent fasting"},
+        "cswiki": {"site": "cswiki", "title": "Přerušovaný půst"},
+        "ukwiki": {"site": "ukwiki", "title": "Інтервальне голодування"}
+      }
+    },
+    "Q112575736": {
+      "id": "Q112575736",
+      "labels": {"en": {"language": "en", "value": "Intermittent Fasting Can Make Us Healthier"}},
+      "descriptions": {"en": {"language": "en", "value": "Article published in Scientific European on 15 January 2019"}},
+      "sitelinks": {}
+    },
+    "Q63574657": {
+      "id": "Q63574657",
+      "labels": {"en": {"language": "en", "value": "Intermittent Fasting Versus Daily Caloric Restriction for Weight Loss"}},
+      "descriptions": {"en": {"language": "en", "value": "clinical trial"}},
+      "sitelinks": {}
+    }
+  }
+}

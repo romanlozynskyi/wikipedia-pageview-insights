@@ -1,0 +1,482 @@
+{
+ "_source": "Live Wikimedia Pageviews API run, 2026-09-25: pageviews_cli.py --topics \"Intermittent fasting\" --langs en,de,cs,uk --start 2023-09-01 --end 2025-09-01. Regression case for references/examples.md example 4.",
+ "topic": "Intermittent fasting",
+ "langs": [
+  "en",
+  "de",
+  "cs",
+  "uk"
+ ],
+ "start": "2023-09-01",
+ "end": "2025-09-01",
+ "resolution": {
+  "en": {
+   "status": "resolved",
+   "title": "Intermittent fasting",
+   "qid": "Q1666254",
+   "method": "wikidata_sitelink"
+  },
+  "de": {
+   "status": "resolved",
+   "title": "Intermittierendes Fasten",
+   "qid": "Q1666254",
+   "method": "wikidata_sitelink"
+  },
+  "cs": {
+   "status": "resolved",
+   "title": "Přerušovaný půst",
+   "qid": "Q1666254",
+   "method": "wikidata_sitelink"
+  },
+  "uk": {
+   "status": "resolved",
+   "title": "Інтервальне голодування",
+   "qid": "Q1666254",
+   "method": "wikidata_sitelink"
+  }
+ },
+ "series": {
+  "en": [
+   {
+    "date": "2023-09-01",
+    "views": 25839
+   },
+   {
+    "date": "2023-10-01",
+    "views": 44989
+   },
+   {
+    "date": "2023-11-01",
+    "views": 29530
+   },
+   {
+    "date": "2023-12-01",
+    "views": 43487
+   },
+   {
+    "date": "2024-01-01",
+    "views": 74155
+   },
+   {
+    "date": "2024-02-01",
+    "views": 43687
+   },
+   {
+    "date": "2024-03-01",
+    "views": 71317
+   },
+   {
+    "date": "2024-04-01",
+    "views": 45443
+   },
+   {
+    "date": "2024-05-01",
+    "views": 60491
+   },
+   {
+    "date": "2024-06-01",
+    "views": 69116
+   },
+   {
+    "date": "2024-07-01",
+    "views": 57078
+   },
+   {
+    "date": "2024-08-01",
+    "views": 44593
+   },
+   {
+    "date": "2024-09-01",
+    "views": 39513
+   },
+   {
+    "date": "2024-10-01",
+    "views": 32405
+   },
+   {
+    "date": "2024-11-01",
+    "views": 16801
+   },
+   {
+    "date": "2024-12-01",
+    "views": 15029
+   },
+   {
+    "date": "2025-01-01",
+    "views": 22461
+   },
+   {
+    "date": "2025-02-01",
+    "views": 15605
+   },
+   {
+    "date": "2025-03-01",
+    "views": 19966
+   },
+   {
+    "date": "2025-04-01",
+    "views": 15538
+   },
+   {
+    "date": "2025-05-01",
+    "views": 14506
+   },
+   {
+    "date": "2025-06-01",
+    "views": 15151
+   },
+   {
+    "date": "2025-07-01",
+    "views": 14814
+   },
+   {
+    "date": "2025-08-01",
+    "views": 12958
+   },
+   {
+    "date": "2025-09-01",
+    "views": 10860
+   }
+  ],
+  "de": [
+   {
+    "date": "2023-09-01",
+    "views": 3258
+   },
+   {
+    "date": "2023-10-01",
+    "views": 2943
+   },
+   {
+    "date": "2023-11-01",
+    "views": 3164
+   },
+   {
+    "date": "2023-12-01",
+    "views": 2967
+   },
+   {
+    "date": "2024-01-01",
+    "views": 5137
+   },
+   {
+    "date": "2024-02-01",
+    "views": 4826
+   },
+   {
+    "date": "2024-03-01",
+    "views": 5121
+   },
+   {
+    "date": "2024-04-01",
+    "views": 4566
+   },
+   {
+    "date": "2024-05-01",
+    "views": 4501
+   },
+   {
+    "date": "2024-06-01",
+    "views": 3763
+   },
+   {
+    "date": "2024-07-01",
+    "views": 3661
+   },
+   {
+    "date": "2024-08-01",
+    "views": 3363
+   },
+   {
+    "date": "2024-09-01",
+    "views": 2504
+   },
+   {
+    "date": "2024-10-01",
+    "views": 2810
+   },
+   {
+    "date": "2024-11-01",
+    "views": 2893
+   },
+   {
+    "date": "2024-12-01",
+    "views": 2470
+   },
+   {
+    "date": "2025-01-01",
+    "views": 4953
+   },
+   {
+    "date": "2025-02-01",
+    "views": 3061
+   },
+   {
+    "date": "2025-03-01",
+    "views": 3691
+   },
+   {
+    "date": "2025-04-01",
+    "views": 2736
+   },
+   {
+    "date": "2025-05-01",
+    "views": 2398
+   },
+   {
+    "date": "2025-06-01",
+    "views": 1726
+   },
+   {
+    "date": "2025-07-01",
+    "views": 1654
+   },
+   {
+    "date": "2025-08-01",
+    "views": 2160
+   },
+   {
+    "date": "2025-09-01",
+    "views": 1614
+   }
+  ],
+  "cs": [
+   {
+    "date": "2023-09-01",
+    "views": 481
+   },
+   {
+    "date": "2023-10-01",
+    "views": 305
+   },
+   {
+    "date": "2023-11-01",
+    "views": 329
+   },
+   {
+    "date": "2023-12-01",
+    "views": 296
+   },
+   {
+    "date": "2024-01-01",
+    "views": 773
+   },
+   {
+    "date": "2024-02-01",
+    "views": 593
+   },
+   {
+    "date": "2024-03-01",
+    "views": 770
+   },
+   {
+    "date": "2024-04-01",
+    "views": 537
+   },
+   {
+    "date": "2024-05-01",
+    "views": 749
+   },
+   {
+    "date": "2024-06-01",
+    "views": 491
+   },
+   {
+    "date": "2024-07-01",
+    "views": 526
+   },
+   {
+    "date": "2024-08-01",
+    "views": 447
+   },
+   {
+    "date": "2024-09-01",
+    "views": 393
+   },
+   {
+    "date": "2024-10-01",
+    "views": 634
+   },
+   {
+    "date": "2024-11-01",
+    "views": 329
+   },
+   {
+    "date": "2024-12-01",
+    "views": 294
+   },
+   {
+    "date": "2025-01-01",
+    "views": 489
+   },
+   {
+    "date": "2025-02-01",
+    "views": 272
+   },
+   {
+    "date": "2025-03-01",
+    "views": 366
+   },
+   {
+    "date": "2025-04-01",
+    "views": 958
+   },
+   {
+    "date": "2025-05-01",
+    "views": 225
+   },
+   {
+    "date": "2025-06-01",
+    "views": 238
+   },
+   {
+    "date": "2025-07-01",
+    "views": 157
+   },
+   {
+    "date": "2025-08-01",
+    "views": 386
+   },
+   {
+    "date": "2025-09-01",
+    "views": 270
+   }
+  ],
+  "uk": [
+   {
+    "date": "2023-09-01",
+    "views": 214
+   },
+   {
+    "date": "2023-10-01",
+    "views": 155
+   },
+   {
+    "date": "2023-11-01",
+    "views": 210
+   },
+   {
+    "date": "2023-12-01",
+    "views": 155
+   },
+   {
+    "date": "2024-01-01",
+    "views": 223
+   },
+   {
+    "date": "2024-02-01",
+    "views": 285
+   },
+   {
+    "date": "2024-03-01",
+    "views": 313
+   },
+   {
+    "date": "2024-04-01",
+    "views": 767
+   },
+   {
+    "date": "2024-05-01",
+    "views": 1232
+   },
+   {
+    "date": "2024-06-01",
+    "views": 867
+   },
+   {
+    "date": "2024-07-01",
+    "views": 592
+   },
+   {
+    "date": "2024-08-01",
+    "views": 490
+   },
+   {
+    "date": "2024-09-01",
+    "views": 740
+   },
+   {
+    "date": "2024-10-01",
+    "views": 812
+   },
+   {
+    "date": "2024-11-01",
+    "views": 856
+   },
+   {
+    "date": "2024-12-01",
+    "views": 705
+   },
+   {
+    "date": "2025-01-01",
+    "views": 1668
+   },
+   {
+    "date": "2025-02-01",
+    "views": 791
+   },
+   {
+    "date": "2025-03-01",
+    "views": 1287
+   },
+   {
+    "date": "2025-04-01",
+    "views": 818
+   },
+   {
+    "date": "2025-05-01",
+    "views": 510
+   },
+   {
+    "date": "2025-06-01",
+    "views": 203
+   },
+   {
+    "date": "2025-07-01",
+    "views": 207
+   },
+   {
+    "date": "2025-08-01",
+    "views": 192
+   },
+   {
+    "date": "2025-09-01",
+    "views": 199
+   }
+  ]
+ },
+ "expected": {
+  "en": {
+   "average_views": 34213.28,
+   "growth_pct": -62.82,
+   "r_squared": 0.4759,
+   "data_points": 25,
+   "trend_strength": "moderate",
+   "promising": "not_promising"
+  },
+  "de": {
+   "average_views": 3277.6,
+   "growth_pct": -32.3,
+   "r_squared": 0.3436,
+   "data_points": 25,
+   "trend_strength": "moderate",
+   "promising": "not_promising"
+  },
+  "cs": {
+   "average_views": 452.32,
+   "growth_pct": -26.54,
+   "r_squared": 0.0998,
+   "data_points": 25,
+   "trend_strength": "weak",
+   "promising": "not_promising"
+  },
+  "uk": {
+   "average_views": 579.64,
+   "growth_pct": 50.77,
+   "r_squared": 0.0416,
+   "data_points": 25,
+   "trend_strength": "weak",
+   "promising": "not_promising"
+  }
+ }
+}

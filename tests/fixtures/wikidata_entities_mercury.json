@@ -1,0 +1,22 @@
+{
+  "entities": {
+    "Q19935429": {
+      "id": "Q19935429",
+      "labels": {"en": {"language": "en", "value": "Mercury"}},
+      "descriptions": {"en": {"language": "en", "value": "Wikimedia disambiguation page"}},
+      "sitelinks": {"enwiki": {"site": "enwiki", "title": "Mercury"}}
+    },
+    "Q308": {
+      "id": "Q308",
+      "labels": {"en": {"language": "en", "value": "Mercury"}},
+      "descriptions": {"en": {"language": "en", "value": "first planet from the Sun in the Solar System"}},
+      "sitelinks": {"enwiki": {"site": "enwiki", "title": "Mercury (planet)"}}
+    },
+    "Q925": {
+      "id": "Q925",
+      "labels": {"en": {"language": "en", "value": "mercury"}},
+      "descriptions": {"en": {"language": "en", "value": "chemical element with atomic number 80 (Hg)"}},
+      "sitelinks": {"enwiki": {"site": "enwiki", "title": "Mercury (element)"}}
+    }
+  }
+}
