@@ -3,21 +3,22 @@
 An Agent Skill that helps founders read [Wikipedia pageview data](https://wikimedia.org/api/rest_v1/) as
 a proxy for public interest in a topic — across time periods and language
 editions — to decide which topics or audiences are worth investigating
-further. Built for [`CASE.md`](CASE.md) (Genesis AI Product Engineering
-School technical case).
+further. Built for the Genesis AI Product Engineering School technical
+case (`CASE.md`, the assignment prompt — provided separately, not part of
+this repository).
 
 ## Where things are
 
-- **[`CASE.md`](CASE.md)** — the original case prompt.
-- **[`wikipedia-pageview-insights/`](wikipedia-pageview-insights/)** — the
-  skill itself. Everything required to run it lives inside this one
-  directory (code, tests, docs, dependency pins), per the case's
-  requirement that the skill be self-contained.
+This repository *is* the skill: everything required to run it lives
+directly here (code, tests, docs, dependency pins), per the case's
+requirement that the skill be self-contained. `scripts/` holds the CLI and
+its modules, `tests/` the test suite, `references/` the design and
+methodology docs, and `SKILL.md` is the entry point for how an agent
+should drive it.
 
 ## Quick start
 
 ```bash
-cd wikipedia-pageview-insights
 pip install -r requirements.txt
 python scripts/pageviews_cli.py --topics "Intermittent fasting" --langs pl,cs
 ```
@@ -25,15 +26,13 @@ python scripts/pageviews_cli.py --topics "Intermittent fasting" --langs pl,cs
 This fetches real Wikimedia pageview data, computes trend/growth metrics
 in code (not by the model), and writes a chart (`chart.png`), a one-page
 PDF report (`report.pdf`), and the full JSON result to `wpv-output/` (or
-wherever `--outdir` points). `wikipedia-pageview-insights/SKILL.md` is the
-entry point for how an agent should drive the CLI — arguments, the JSON
-shape, and how to handle follow-ups, ambiguous topics, and a blocked
-network.
+wherever `--outdir` points). `SKILL.md` is the entry point for how an
+agent should drive the CLI — arguments, the JSON shape, and how to handle
+follow-ups, ambiguous topics, and a blocked network.
 
 ## Running the tests
 
 ```bash
-cd wikipedia-pageview-insights
 pip install -r requirements-dev.txt
 pytest tests/ -q
 ```
